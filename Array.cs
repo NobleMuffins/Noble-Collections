@@ -28,6 +28,14 @@ namespace NobleMuffins.Collections
             this.array = source;
         }
 
+        public T this[int i]
+        {
+            get
+            {
+                return array[i];
+            }
+        }
+
         public int Count
         {
             get
