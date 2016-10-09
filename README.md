@@ -1,2 +1,2 @@
-# Noble-Collections
+# Noble Collections
 Don't ask.
