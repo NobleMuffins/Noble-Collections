@@ -59,7 +59,7 @@ namespace NobleMuffins.Collections
             }
         }
 
-        public int Count { get; private set; }
+        public int Count { get { return count; } }
 
         public void CopyTo(T[] destination, int index)
         {
