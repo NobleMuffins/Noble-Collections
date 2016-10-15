@@ -39,7 +39,7 @@ namespace NobleMuffins.Collections
         public bool MoveNext()
         {
             bool moved;
-            if (index < array.Length)
+            if (index < array.Length - 1)
             {
                 index++;
                 moved = true;
