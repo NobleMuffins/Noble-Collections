@@ -55,7 +55,7 @@ namespace NobleMuffins.Collections
             if (count > array.Length)
             {
                 var newCapacity = ArrayBuilder<T>.RoundUp(newCount);
-                System.Array.Resize(ref array, newCount);
+                System.Array.Resize(ref array, newCapacity);
             }
         }
 
